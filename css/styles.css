@@ -20,7 +20,7 @@ Table Of Contents:
 /*****************************************
 Colors:
 - Backgrounds - light gray #f1f9fc
-- Buttons, icons - purple #594cda
+- Buttons, icons - purple #097e09
 - Buttons, icons - red #eb427e
 - Headings text - black #252c38
 - Body text - dark gray #6b747b
@@ -109,9 +109,9 @@ h6 {
 .btn-solid-reg {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-    border: 1px solid #594cda;
+    border: 1px solid #097e09;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #097e09;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -121,18 +121,18 @@ h6 {
 }
 
 .btn-solid-reg:hover {
-    border: 1px solid #594cda;
+    border: 1px solid #097e09;
     background-color: transparent;
-    color: #594cda; /* needs to stay here because of the color property of a tag */
+    color: #097e09; /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
 
 .btn-solid-lg {
     display: inline-block;
     padding: 1.625rem 2.75rem 1.625rem 2.75rem;
-    border: 1px solid #594cda;
+    border: 1px solid #097e09;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #097e09;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -145,9 +145,9 @@ h6 {
 }
 
 .btn-solid-lg:hover {
-    border: 1px solid #594cda;
+    border: 1px solid #097e09;
     background-color: transparent;
-    color: #594cda; /* needs to stay here because of the color property of a tag */
+    color: #097e09; /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
 
@@ -234,7 +234,7 @@ h6 {
 }
 
 .list .fas {
-    color: #594cda;
+    color: #097e09;
     font-size: 0.75rem;
     line-height: 1.625rem;
 }
@@ -347,13 +347,18 @@ input[type="checkbox"] {
     margin-right: 0.5rem;
 }
 
+/* <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'>
+  <path stroke='rgb(9, 126, 9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/>
+</svg> */
+
+
 .form-control-submit-button {
     display: inline-block;
     width: 100%;
     height: 3.25rem;
-    border: 1px solid #594cda;
+    border: 1px solid #097e09;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #097e09;
     color: #252c38;
     font-weight: 600;
     font-size: 0.875rem;
@@ -437,7 +442,7 @@ input[type="checkbox"] {
 
 .navbar-toggler-icon {
     content: "";
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg%20xmlns%3d%27http%3a%2f%2fwww.w3.org%2f2000%2fsvg%27%20width%3d%2730%27%20height%3d%2730%27%20viewBox%3d%270%200%2030%2030%27%3e%3cpath%20stroke%3d%27rgb%289%2c%20126%2c%209%29%27%20stroke-linecap%3d%27round%27%20stroke-miterlimit%3d%2710%27%20stroke-width%3d%272%27%20d%3d%27M4%207h22M4%2015h22M4%2023h22%27%2f%3e%3c%2fsvg%3e");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
@@ -501,7 +506,7 @@ input[type="checkbox"] {
 .dropdown.show > a,
 .nav-link:hover,
 .nav-link.active {
-    color: #ff6e84;
+    color: #097e09;
     text-decoration: none;
 }
 
@@ -573,7 +578,8 @@ input[type="checkbox"] {
 /*    Header     */
 /*****************/
 .header {
-    background: linear-gradient(rgba(197, 234, 249, 1), rgba(255, 255, 255, 1));
+    background: #F5F5F5;
+    /* background: linear-gradient(rgb(107, 254, 107), rgba(255, 255, 255, 1)); */
 }
 
 /********************/
@@ -636,7 +642,7 @@ input[type="checkbox"] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-    color: #594cda;
+    color: #097e09;
 }
 /* end of action Button */
 
@@ -876,7 +882,7 @@ input[type="checkbox"] {
 .footer {
     padding-top: 6rem;
     padding-bottom: 3rem;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(197, 234, 249, 1));
+    background: #F5F5F5;
     text-align: center;
 }
 
@@ -914,8 +920,9 @@ input[type="checkbox"] {
 /*********************/
 .copyright {
     padding-top: 1.5rem;
-    background-color: #c5eaf9;
+    background-color: #F5F5F5;
     text-align: center;
+    color: #000000;
 }
 
 /******************************/
@@ -1132,7 +1139,8 @@ a:hover.back-to-top {
     }
 
     .copyright .statement {
-        text-align: right;
+        text-align: center;
+        color: #000000;
     }
     /* end of copyright */
 
